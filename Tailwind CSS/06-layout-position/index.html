@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>TailwindCSS</title>
+  </head>
+  <body>
+    <!-- Positioning -->
+    <div class="relative h-12 bg-red-200 w-1/2">
+      <p>Parent Element</p>
+      <div class="absolute top-0 right-0 bg-green-200">
+        <p>Child Container</p>
+      </div>
+    </div>
+
+    <!-- Top left corner -->
+    <div class="bg-slate-300 w-1/2 mt-10 relative h-12">
+      <p class="pt-[20px]">Parent Element</p>
+      <div class="absolute top-0 left-0 bg-red-300">
+        Child Container
+      </div>
+    </div>
+    <div class="bg-slate-300 w-1/2 mt-10 relative h-12">
+      <p class="pt-[20px]">Parent Element</p>
+      <div class="absolute top-0 left-0 bg-red-300">
+        <p>Child Container 2</p>
+      </div>
+    </div>
+
+    <!-- Top right corner -->
+    <div class="relative bg-orange-200 mt-10 w-1/2 h-12">
+      <p>Parent container</p>
+      <div class="bg-pink-100 absolute top-0 right-0">
+        <p>Child Container</p>
+      </div>
+    </div>
+
+    <!-- Bottom left corner -->
+    <div class="relative bg-purple-200 mt-10 w-1/2 h-12">
+      <p>Parent Container</p>
+      <div class="absolute bottom-0 left-0 bg-orange-200">
+        <p>Child Container</p>
+      </div>
+    </div>
+
+    <!-- Bottom right corner -->
+    <div class="relative bg-cyan-200 mt-10 w-1/2 h-12">
+      <p>Parent Container</p>
+      <div class="absolute bottom-0 right-0 bg-stone-300">
+        <p>Child Container</p>
+      </div>
+    </div>
+
+    <!-- Span top edge -->
+    <div class="relative bg-green-400/60 w-1/2 h-24 mt-10" > 
+      <p>Parent Element</p>
+      <div class="absolute inset-x-0 h-12 top-0 bg-slate-400 ">
+        <p>Chlild Container</p>
+      </div>
+    </div>
+
+    <!-- Span left edge -->
+    <div class="relative bg-pink-300 w-1/2 mt-10 h-24">
+      <p class="flex justify-end">Child Container</p>
+      <div class="absolute inset-y-0 w-1/2 left-0 bg-slate-300">
+
+      </div>
+    </div>
+
+    <!-- Span right edge -->
+    <div class="relative bg-orange-500 w-1/2 h-24 mt-10">
+      <p>Child Container</p>
+      <div class="absolute bg-blue-200 inset-y-2 w-1/2 right-0"></div>
+    </div>
+
+    <!-- Span bottom edge -->
+    <div class="relative bg-lime-300 w-1/2 h-24 mt-10">
+      <p>Child Container</p>
+      <div class=" absolute bg-slate-300 h-12 bottom-0 inset-x-12"></div>
+    </div>
+
+    <!-- Display Classes -->
+
+    <!-- Z-Index -->
+
+    <!-- Floats -->
+  </body>
+</html>
+
+<!-- Position Classes
+      static	    position: static;
+      fixed	      position: fixed;
+      absolute	  position: absolute;
+      relative	  position: relative;
+      sticky	    position: sticky;
+    -->
+
+<!-- Display Classes
+      block	            display: block;
+      inline-block	    display: inline-block;
+      inline	          display: inline;
+      flex	            display: flex;
+      inline-flex	      display: inline-flex;
+      table	            display: table;
+      grid	            display: grid;
+      inline-grid	      display: inline-grid;
+      contents	        display: contents;
+      list-item	        display: list-item;
+      hidden	          display: none;
+    -->
+
+<!-- Z-Index
+      z-0	    z-index: 0;
+      z-10	  z-index: 10;
+      z-20	  z-index: 20;
+      z-30	  z-index: 30;
+      z-40	  z-index: 40;
+      z-50	  z-index: 50;
+      z-auto	z-index: auto;
+    -->
+
+<!-- Float
+      float-right	  float: right;
+      float-left	  float: left;
+      float-none	  float: none;
+    -->
