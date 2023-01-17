@@ -1,1 +1,107 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Interactivity</title>
+  </head>
+  <body>
+    <!-- Hover State Styling -->
+    <button
+      class="bg-black text-white py-3 px-5 rounded-lg m-3 hover:bg-lime-400 hover:text-black"
+    >
+      Submit
+    </button>
 
+    <!-- Focus State Styling -->
+    <button
+      class="bg-lime-400 outline text-black px-5 py-3 m-3 rounded-lg focus:bg-sky-400 focus:text-white"
+    >
+      Jha
+    </button>
+
+    <!-- Active State Styling -->
+    <button
+      class="bg-sky-300 text-black m-3 px-5 py-3 rounded-lg active:bg-emerald-400 outline outline-black"
+    >
+      Radhe Radhe
+    </button>
+
+    <!-- Styling based on parent state -->
+    <a
+      href=""
+      class="group hover:bg-sky-500 block max-w-xs shadow-lg rounded-lg space-y-3 bg-white mx-auto p-6"
+    >
+    <h3 class="group-hover:text-white">This is the cart text</h3>
+    <p class="group-hover:text-yellow-800">This is a Paragraph</p>
+  </a>
+
+    <!-- Pseudo Classes -->
+    <ul>
+      <li class=" even:bg-red-500 odd:bg-yellow-400 first:bg-lime-400">item 1</li>
+      <li class="first:bg-lime-400 even:bg-red-500 odd:bg-yellow-400">item 2</li>
+      <li class="first:bg-lime-400 even:bg-red-500 odd:bg-yellow-400">item 3</li>
+      <li class="first:bg-lime-400 even:bg-red-500 odd:bg-yellow-400 ">item 4</li>
+      <li class="first:bg-lime-400 even:bg-red-500 odd:bg-yellow-400">item 5</li>
+      <li class="first:bg-lime-400 even:bg-red-500 odd:bg-yellow-400">item 6</li>
+    </ul>
+  
+
+    <!-- Appearance -->
+    <!-- Use appearance-none to reset any browser specific styling on an element. This utility is often used when creating custom form components. -->
+    <select class="appearance-none">
+      <option>Yes</option>
+      <option>No</option>
+    </select>
+    <!-- Cursor -->
+    <br>
+    <button class="bg-black text-white px-5 py-3 m-3 rounded-lg cursor">Submit</button>
+
+    <!-- Resize -->
+
+    <!-- User Select -->
+
+    <!-- Smooth Scroll Example -->
+  </body>
+</html>
+
+<!-- Cursor
+  cursor-auto	          cursor: auto;
+  cursor-default	      cursor: default;
+  cursor-pointer	      cursor: pointer;
+  cursor-wait	          cursor: wait;
+  cursor-text	          cursor: text;
+  cursor-move	          cursor: move;
+  cursor-help	          cursor: help;
+  cursor-not-allowed	  cursor: not-allowed;
+  cursor-none	          cursor: none;
+  cursor-context-menu	  cursor: context-menu;
+  cursor-progress	      cursor: progress;
+  cursor-cell	          cursor: cell;
+  cursor-crosshair	    cursor: crosshair;
+  cursor-vertical-text	cursor: vertical-text;
+  cursor-alias	        cursor: alias;
+  cursor-copy	          cursor: copy;
+  cursor-no-drop	      cursor: no-drop;
+  cursor-grab	          cursor: grab;
+  cursor-grabbing	      cursor: grabbing;
+  cursor-all-scroll	    cursor: all-scroll;
+  cursor-col-resize	    cursor: col-resize;
+  cursor-row-resize	    cursor: row-resize;
+  cursor-n-resize	      cursor: n-resize;
+  cursor-e-resize	      cursor: e-resize;
+  cursor-s-resize	      cursor: s-resize;
+  cursor-w-resize	      cursor: w-resize;
+  cursor-ne-resize	    cursor: ne-resize;
+  cursor-nw-resize	    cursor: nw-resize;
+  cursor-se-resize	    cursor: se-resize;
+  cursor-sw-resize	    cursor: sw-resize;
+  cursor-ew-resize	    cursor: ew-resize;
+  cursor-ns-resize	    cursor: ns-resize;
+  cursor-nesw-resize	  cursor: nesw-resize;
+  cursor-nwse-resize	  cursor: nwse-resize;
+  cursor-zoom-in	      cursor: zoom-in;
+  cursor-zoom-out	      cursor: zoom-out;
+-->
