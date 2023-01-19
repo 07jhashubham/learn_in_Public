@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Flex</title>
+  </head>
+  <body>
+    <!-- Flex and alignment -->
+    <div class="flex container flex-wrap justify-around md:flex-row w-full h-72 bg-gray-300">
+      <div class="p-10 border border-emerald-900 bg-emerald-200">1</div>
+      <div class="p-10 border border-emerald-900 bg-emerald-200">2</div>
+      <div class="p-10 border border-emerald-900 bg-emerald-200">3</div>
+      <div class="p-10 border border-emerald-900 bg-emerald-200">4</div>
+      <div class="p-10 border border-emerald-900 bg-emerald-200">4</div>
+      <div class="p-10 border border-emerald-900 bg-emerald-200">4</div>
+      <div class="p-10 border border-emerald-900 bg-emerald-200">4</div>
+      <div class="p-10 border border-emerald-900 bg-emerald-200">4</div>
+      <div class="p-10 border border-emerald-900 bg-emerald-200">4</div>
+      <div class="p-10 border border-emerald-900 bg-emerald-200">4</div>
+      <div class="p-10 border border-emerald-900 bg-emerald-200">4</div>
+      <div class="p-10 border border-emerald-900 bg-emerald-200">4</div>
+      <div class="p-10 border border-emerald-900 bg-emerald-200">4</div>
+      <div class="p-10 border border-emerald-900 bg-emerald-200">4</div>
+      <div class="p-10 border border-emerald-900 bg-emerald-200">4</div>
+    </div>
+
+
+    <!-- Flex Column, Gap and Order -->
+    <div class="bg-gray-200 flex gap-4 flex-col items-center h-72 w-full my-20">
+      <div class="p-10 order-3 bg-fuchsia-300 border border-fuchsia-900">1</div>
+      <div class="p-10 order-4 bg-fuchsia-300 border border-fuchsia-900">2</div>
+      <div class="p-10 order-1 bg-fuchsia-300 border border-fuchsia-900">3</div>
+      <div class="p-10 order-2 bg-fuchsia-300 border border-fuchsia-900">4</div>
+    </div>
+
+    <!-- Grow and shrink -->
+    <div class="my-64 flex w-full bg-green-200">
+      <div class="w-48 flex-initial p-10 bg-slate-300 border border-slate-900">1</div>
+      <div class="w-48  flex p-10 bg-slate-300 border border-slate-900">2</div>
+      <div class="w-48 flex-auto p-10 bg-slate-300 border border-slate-900">3</div>
+      <div class="w-48 flex-1 p-10 bg-slate-300 border border-slate-900">4</div>
+      <div class="p-10 bg-slate-300 border border-slate-900">5</div>
+      <div class="p-10 bg-slate-300 border border-slate-900">6</div>
+      <div class="p-10 bg-slate-300 border border-slate-900">7</div>
+      <div class="p-10 bg-slate-300 border border-slate-900">8</div>
+    </div>
+  </body>
+</html>
+
+<!-- Justify Content
+      justify-start	      justify-content: flex-start;
+      justify-end	        justify-content: flex-end;
+      justify-center	    justify-content: center;
+      justify-between	    justify-content: space-between;
+      justify-around	    justify-content: space-around;
+      justify-evenly	    justify-content: space-evenly;
+    -->
+
+<!-- 
+      items-start	align-items: flex-start;
+      items-end	align-items: flex-end;
+      items-center	align-items: center;
+      items-baseline	align-items: baseline;
+      items-stretch	align-items: stretch;
+     -->
+
+<!-- Flex Direction
+      flex-row	        flex-direction: row;
+      flex-row-reverse	flex-direction: row-reverse;
+      flex-col	        flex-direction: column;
+      flex-col-reverse	flex-direction: column-reverse;
+    -->
+
+<!-- 
+      flex-wrap	        flex-wrap: wrap;
+      flex-wrap-reverse	flex-wrap: wrap-reverse;
+      flex-nowrap	      flex-wrap: nowrap;
+     -->
+
+<!-- Flex Properties
+      flex-none	    flex: none;     
+      Prevent item from growing or shrinking
+
+      flex-initial	flex: 0 1 auto; 
+      Allow item to shrink but not grow, taking into account its initial size
+
+      flex-auto	    flex: 1 1 auto; 
+      Allow item to grow and shrink, taking into account its initial size
+
+      flex-1	      flex: 1 1 0%;   
+      Allow item to grow and shrink as needed, ignoring its initial size
+    -->
