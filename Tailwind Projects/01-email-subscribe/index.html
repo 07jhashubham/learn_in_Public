@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Email Subscribe</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <div class="flex items-center justify-center h-screen bg-zinc-700">
+      <div class="bg-zinc-800 p-2 mx-6 rounded-2xl">
+        <div class="flex flex-col md:flex-row rounded-l-xl">
+          <img
+            src="/images/image.jpg"
+            class="object-fill h-80 md:h-64 md:rounded-r-none transform hover:scale-105 hover:rounded-xl duration-300"
+            alt=""
+          />
+          <div class="p-6 md:p-12">
+            <h2
+              class="font-serif text-xl font-medium text-white text-center md:text-left md:hidden"
+            >
+              Gat Diet and Fitness tips
+            </h2>
+            <h2
+              class="font-serif text-xl font-medium text-white text-center md:text-left hidden md:block"
+            >
+              Gat Diet and Fitness tips in your Inbox
+            </h2>
+            <p
+              class="max-w-xs my-4 text-xs leading-5 tracking-wide text-center text-white md:text-left"
+            >
+              Eat better and exercise better, Sign up for the Diet & Fitness
+              newslatter.
+            </p>
+            <div
+              class="flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-6 mt-5"
+            >
+              <input
+                type="email"
+                placeholder="Enter your email adress"
+                class="py-2 px-4 bg-zinc-800 text-center border border-zinc-700 placeholder:text-center focus:border focus:outline-none focus:border-[#9CFF2E]  text-white  placeholder:text-xs placeholder:md:text-left placeholder:md:text-sm  "
+              />
+              <button class="bg-[#9CFF2E] py-2 rounded-lg md:px-8 hover:bg-[#7ac424] hover:text-[#29430c]">Subcribe</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
